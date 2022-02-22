@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  max-width: 1390px;
+  margin: 0 auto;
+}
+.header {
+  overflow: hidden;
+  margin: auto;
+  background-color: #ff3333;
+  padding: 20px;
+  font-size: 18px;
+  
+}
+.menu {
+  list-style: none;
+  margin-left: 40px;
+  margin-top: 10px;
+  padding: 0;
+  float: left;
+  font-weight: bolder;
+}
+
+li {
+  display: inline-block;
+  color: white;
+  margin-right: 50px;
+}
+
+.logo {
+  
+  float: left;
+  color: white;
+  box-sizing: border-box;
+  margin-right: 30px;
+  width: 50px;
+}
+
+.numero {
+  display: inline-block;
+  background-color: white;
+  color: #ff3333;
+  padding: 8px;
+  width: 20px;
+  border-radius: 50%;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+/*
+.mainContainer {
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 50px;
+  color: #ff3333;
+  border: box;
+}
+.identificaçao {
+  margin-top: 40px;
+  color: black;
+}
+.identificaçao{
+  margin-top: 40px;
+}
+
+.name{
+  display: flex;
+  justify-content: center;
+}
+
+p {
+}
+*/
+h1 {
+  text-align: center;
+  margin-top: 70px;
+  color: #ff3333;
+  font-weight: bold;
+  
+}
+.flex {
+  
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 450px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.flex > div {
+  margin: 10px;
+  
+}
+input {
+  background: #ffffff;
+  border: 2px solid #646464;
+  border-radius: 10px;
+  padding: 9px;
+}
+.btn{
+  text-align: center;
+  margin-top: ;
+  background: red;
+  
+}
+#continuar{
+  display: inline-block;
+  padding:;
+  borde: 0px;
+  
+
+}
+#voltar{
+  display: inline-block;
+  margin: 30px;
+}
+
