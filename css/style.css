@@ -6,6 +6,8 @@ body{
   max-width: 1390px;
   margin: 0 auto;
 }
+
+
 .header {
   overflow: hidden;
   margin: auto;
@@ -47,10 +49,12 @@ li {
   border-radius: 50%;
   text-align: center;
 }
+
 a{
   text-decoration: none;
   color: white;
 }
+
 /*
 .mainContainer {
   margin-bottom: 30px;
@@ -92,7 +96,6 @@ h1 {
 }
 .flex > div {
   margin: 10px;
-  
 }
 input {
   background: #ffffff;
@@ -101,20 +104,28 @@ input {
   padding: 9px;
 }
 .btn{
-  text-align: center;
-  margin-top: ;
-  background: red;
   
+  margin-top: 0px;
+  /*background: red;*/
+  text-align: center;
+  /*width: 80%;*/
 }
 #continuar{
   display: inline-block;
-  padding:;
-  borde: 0px;
-  
-
+  padding: 10px;
 }
 #voltar{
   display: inline-block;
   margin: 30px;
 }
 
+#continuar a button{
+  padding: 9px;
+  border-radius: 10px;
+  width: 150px;
+}
+#voltar > button{
+  padding: 9px;
+  border-radius: 10px;
+  width: 150px;
+}

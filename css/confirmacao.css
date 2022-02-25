@@ -1,12 +1,12 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-body{
+body {
   max-width: 1390px;
   margin: 0 auto;
 }
-header{
+header {
   overflow: hidden;
   margin: auto;
   background-color: #ff3333;
@@ -36,14 +36,13 @@ li {
   text-align: center;
 }
 .logo {
-  
   float: left;
   color: white;
   box-sizing: border-box;
   margin-right: 30px;
   width: 50px;
 }
-a{
+a {
   text-decoration: none;
   color: white;
 }
@@ -52,5 +51,119 @@ h1 {
   margin-top: 70px;
   color: #ff3333;
   font-weight: bold;
+}
+form {
+  /*background-color: red;*/
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 438px;
+  margin: 0 auto;
+  margin-top: 50px;
+  /*float: left;*/
+}
+form > div {
+  margin: 10px;
+}
+input {
+  background: #ffffff;
+  border: 2px solid #646464;
+  border-radius: 10px;
+  padding: 9px;
+}
+#endereço {
+  width: 395px;
+}
+.button a button{
+  margin-top: 18px;
+  background: #ffffff;
+  border: 2px solid #646464;
+  border-radius: 10px;
+  padding: 9px;
+  color: red;
+  text-align: center;
+  border-color: #ff3333;
+  font-weight: bold;
   
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: green;
+  align-items: ;
+  width: 70%;
+  margin: auto;
+}
+.container {
+  background-color: pink;
+  height: ;
+  margin: 10px;
+}
+.container2 {
+  background-color: yellow;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  margin: 10px;
+  width: 400px;
+}
+.assinatura {
+  background-color: purple;
+  position: absolute;
+  width: 190px;
+  margin-top: 60px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #ff3333;
+  font-style: normal;
+}
+.assinatura > p {
+  
+
+}
+.caixa {
+  background-color: red;
+  margin-top: 50px;
+  height: 150px;
+  max-width: 290px;
+  margin-left: 220px;
+}
+.caixa > img {
+  width: 150px;
+  padding: 0px;
+}
+select {
+  background: #ffffff;
+  border: 2px solid #646464;
+  border-radius: 10px;
+  padding: 8px;
+}
+.btn{
+  
+  margin-top: 20px;
+  background: red;
+  /*width: 80%;*/
+}
+.btn button{
+  margin: 0px;
+}
+#finalizar{
+  display: inline-block;
+  padding: 0px;
+}
+#voltar{
+  display: inline-block;
+  margin: ;
+}
+#finalizar a button{
+  padding: 9px;
+  border-radius: 10px;
+  width: 150px;
+  font-weight: bold;
+}
+#voltar a button{
+  padding: 9px;
+  border-radius: 10px;
+  width: 150px;
+  font-weight: bold;
 }
