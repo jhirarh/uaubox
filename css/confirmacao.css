@@ -90,13 +90,11 @@ input {
   flex-wrap: wrap;
   justify-content: center;
   background-color: green;
-  align-items: ;
   width: 70%;
   margin: auto;
 }
 .container {
   background-color: pink;
-  height: ;
   margin: 10px;
 }
 .container2 {
@@ -116,10 +114,6 @@ input {
   font-weight: bold;
   color: #ff3333;
   font-style: normal;
-}
-.assinatura > p {
-  
-
 }
 .caixa {
   background-color: red;
@@ -153,7 +147,6 @@ select {
 }
 #voltar{
   display: inline-block;
-  margin: ;
 }
 #finalizar a button{
   padding: 9px;
