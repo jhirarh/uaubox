@@ -1,45 +1,40 @@
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
+  font-family: arial, sans-serif;
 }
-body{
+body {
   max-width: 1390px;
   margin: 0 auto;
 }
-
+a {
+  text-decoration: none;
+}
 
 .header {
-  overflow: hidden;
-  margin: auto;
   background-color: #ff3333;
+  display: flex;
+  flex-wrap: wrap;
   padding: 20px;
-  font-size: 18px;
-  
+  align-items: center;
 }
 .menu {
-  list-style: none;
-  margin-left: 40px;
-  margin-top: 10px;
-  padding: 0;
-  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
   font-weight: bolder;
 }
-
-li {
+.menu li {
+  margin-left: 50px;
+}
+.menu li a {
   display: inline-block;
-  color: white;
-  margin-right: 50px;
+  padding: 2px;
 }
-
-.logo {
-  
-  float: left;
+li a {
   color: white;
-  box-sizing: border-box;
-  margin-right: 30px;
-  width: 50px;
 }
-
 .numero {
   display: inline-block;
   background-color: white;
@@ -49,45 +44,13 @@ li {
   border-radius: 50%;
   text-align: center;
 }
-
-a{
-  text-decoration: none;
-  color: white;
-}
-
-/*
-.mainContainer {
-  margin-bottom: 30px;
-  text-align: center;
-  margin-top: 50px;
-  color: #ff3333;
-  border: box;
-}
-.identificaçao {
-  margin-top: 40px;
-  color: black;
-}
-.identificaçao{
-  margin-top: 40px;
-}
-
-.name{
-  display: flex;
-  justify-content: center;
-}
-
-p {
-}
-*/
 h1 {
   text-align: center;
   margin-top: 70px;
   color: #ff3333;
   font-weight: bold;
-  
 }
 .flex {
-  
   display: flex;
   flex-wrap: wrap;
   max-width: 450px;
@@ -103,28 +66,24 @@ input {
   border-radius: 10px;
   padding: 9px;
 }
-.btn{
-  
+.btn {
   margin-top: 0px;
-  /*background: red;*/
   text-align: center;
-  /*width: 80%;*/
 }
-#continuar{
+#continuar {
   display: inline-block;
   padding: 10px;
 }
-#voltar{
+#voltar {
   display: inline-block;
   margin: 30px;
 }
-
-#continuar a button{
+#continuar a button {
   padding: 9px;
   border-radius: 10px;
   width: 150px;
 }
-#voltar > button{
+#voltar > button {
   padding: 9px;
   border-radius: 10px;
   width: 150px;

@@ -1,65 +1,22 @@
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
+  font-family: arial, sans-serif;
+}
+a {
+  text-decoration: none;
 }
 body {
   max-width: 1390px;
   margin: 0 auto;
 }
-header {
-  overflow: hidden;
-  margin: auto;
-  background-color: #ff3333;
-  padding: 20px;
-  font-size: 18px;
-}
-.menu {
-  list-style: none;
-  margin-left: 40px;
-  margin-top: 10px;
-  padding: 0;
-  float: left;
-  font-weight: bolder;
-}
-li {
-  display: inline-block;
-  color: white;
-  margin-right: 50px;
-}
-.numero {
-  display: inline-block;
-  background-color: white;
-  color: #ff3333;
-  padding: 8px;
-  width: 20px;
-  border-radius: 50%;
-  text-align: center;
-}
-.logo {
-  float: left;
-  color: white;
-  box-sizing: border-box;
-  margin-right: 30px;
-  width: 50px;
-}
-a {
-  text-decoration: none;
-  color: white;
-}
-h1 {
-  text-align: center;
-  margin-top: 70px;
-  color: #ff3333;
-  font-weight: bold;
-}
 form {
-  /*background-color: red;*/
   display: flex;
   flex-wrap: wrap;
   max-width: 438px;
   margin: 0 auto;
   margin-top: 50px;
-  
 }
 form > div {
   margin: 10px;
@@ -73,7 +30,7 @@ input {
 #endereço {
   width: 395px;
 }
-.button a button{
+.button a button {
   margin-top: 18px;
   background: #ffffff;
   border: 2px solid #646464;
@@ -83,22 +40,18 @@ input {
   text-align: center;
   border-color: #ff3333;
   font-weight: bold;
-  
 }
 .main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: green;
   width: 70%;
   margin: auto;
 }
 .container {
-  background-color: pink;
   margin: 10px;
 }
 .container2 {
-  background-color: yellow;
   display: flex;
   flex-wrap: wrap;
   max-width: 500px;
@@ -106,24 +59,23 @@ input {
   width: 400px;
 }
 .assinatura {
-  background-color: purple;
   position: absolute;
   width: 190px;
-  margin-top: 60px;
+  margin-top: 30px;
+  margin-left: 0px;
   font-size: 36px;
   font-weight: bold;
   color: #ff3333;
   font-style: normal;
 }
 .caixa {
-  background-color: red;
   margin-top: 50px;
   height: 150px;
   max-width: 290px;
-  margin-left: 220px;
+  margin-left: 200px;
 }
 .caixa > img {
-  width: 150px;
+  width: 230px;
   padding: 0px;
 }
 select {
@@ -132,31 +84,63 @@ select {
   border-radius: 10px;
   padding: 8px;
 }
-.btn{
-  
-  margin-top: 20px;
-  background: red;
-  /*width: 80%;*/
+.btn {
+  margin-top: 0px;
+  text-align: center;
 }
-.btn button{
-  margin: 0px;
-}
-#finalizar{
+#voltar {
   display: inline-block;
-  padding: 0px;
+  padding: 10px;
 }
-#voltar{
+#finalizar {
   display: inline-block;
+  margin: 30px;
 }
-#finalizar a button{
+#voltar a button {
   padding: 9px;
   border-radius: 10px;
   width: 150px;
-  font-weight: bold;
 }
-#voltar a button{
+#finalizar a button {
   padding: 9px;
   border-radius: 10px;
   width: 150px;
+}
+.header {
+  background-color: #ff3333;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  font-weight: bolder;
+}
+.menu li {
+  margin-left: 50px;
+}
+.menu li a {
+  display: inline-block;
+  padding: 2px;
+}
+li a {
+  color: white;
+}
+.numero {
+  display: inline-block;
+  background-color: white;
+  color: #ff3333;
+  padding: 8px;
+  width: 20px;
+  border-radius: 50%;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  margin-top: 70px;
+  color: #ff3333;
   font-weight: bold;
 }
