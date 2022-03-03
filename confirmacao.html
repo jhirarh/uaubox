@@ -47,25 +47,31 @@
     <div class="container">
 
       <form>
+
         <div>
           <p>CEP</p>
-          <input type="text">
+          <input type="text" id="cep">
         </div>
+
         <div class="button">
-          <a href="index.html"><button>BUSCAR</button></a>
+          <button onclick="endereco()">BUSCAR</button>
         </div>
-        <div>
+
+        <div >
           <p>Endereço</p>
-          <input id="endereço" type="text">
+          <input class="endere" type="text" id="logradouro">
         </div>
+
         <div>
           <p>Número</p>
           <input type="numero">
         </div>
+
         <div>
           <p>Complemento</p>
           <input type="text">
         </div>
+
       </form>
 
     </div>
@@ -105,6 +111,8 @@
     </div>
 
   </main>
+
+  <script src="script.js"></script>
 
 </body>
 
